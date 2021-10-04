@@ -1,0 +1,23 @@
+
+.table{
+   border-collapse:collapse;
+}
+.lop{
+  margin: 60px;
+  color: black;
+  width: 300px;
+  transition: .5s;
+  padding: 60px;
+  text-align: center;
+  background-color: rgb(226, 160, 105);
+}
+.lop:hover{
+  font-size: 20px;
+  color: brown;
+border: 1px solid black;
+padding: 40px;
+
+}
+.one{
+  text-align: center;
+}

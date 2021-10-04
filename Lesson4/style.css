@@ -1,0 +1,47 @@
+/* .yellow{
+    color: crimson;
+    font-weight: bold;
+}
+.shedow{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-color: coral;
+    box-shadow: 11px 12px 15px 11px black;
+}
+.lop{
+    background-color: darkgreen;
+    font-size: 100px;
+   padding: 50px 100px;
+
+} */
+.lo{
+    text-align: center;
+    font-size: 50px;
+}
+.loq{
+    color: forestgreen;
+    font-weight: bold;
+}
+.header{
+    width: 1900px;
+}
+.one{
+    width: 300px;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 11px 12px 15px -3pxpx #000000;
+}
+.two{
+    width: 600px;
+    border: 1px solid black;
+    padding: 50px;
+}
+.zero{
+    padding: 30px 40px;
+    
+
+}
+.lop{
+    width: 100px;
+}

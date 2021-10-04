@@ -1,0 +1,68 @@
+/*
+p{
+    padding: 10px 20px 30px 40px 50px;
+    margin: 20px;
+    
+}
+.text{
+    color: red;
+    font-size: 30px;
+    border: 5px solid black;
+    border-style: double;
+    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+.TEXT2{
+    color: brown;
+    font-size: 30px;
+    border: 5px solid;
+    border-style: 5px groove;
+    
+}
+.TEXT1{
+    color: darkolivegreen;
+    border: 5px solid;
+    border-style: 5px inherit;
+}
+*/
+
+/* .text{
+    padding: 9px; /* Внутренний отступ */
+
+/* Голова======================= */
+/* .table{
+    border-collapse: collapse;
+    background-image: linear-gradient(red, black);
+}
+.head{
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 40px;
+}
+.lot{
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 40px;
+} */ 
+
+.mop{
+    text-align: center;
+}
+.lop{
+    border: 1px solid black;
+    color: black;
+    padding: 40px;
+    transition: .5s;
+
+}
+.table{
+ border-collapse: collapse;
+ background-image: linear-gradient(red, yellow, blue);
+}
+.lop:hover{
+    color: white;
+    font-size: 40px;
+}
+*{
+    
+}

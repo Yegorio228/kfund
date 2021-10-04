@@ -1,0 +1,18 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color:thistle
+}
+#red_text{
+    background-color: rgba(255, 0, 0, 05)
+}
+.lot{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.God{
+    color: skyblue;
+}
+.lon{
+    color: turquoise;
+}
