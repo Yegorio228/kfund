@@ -1,0 +1,36 @@
+.header{
+    
+    
+}
+.header1{
+    
+    padding: 30px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header_inner{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+}
+.flexleft{
+    height: 500px;
+    background-color: yellowgreen;
+    width: 30%;
+    display: flex;
+}
+.content{
+    height: 500px;
+    width: 70%;
+    background-color: rosybrown;
+    display: flex;
+}
+.main_inner{
+    display: flex;
+    margin: 0 auto;
+    height: 500px;
+}
