@@ -1,0 +1,12 @@
+.h1{
+    text-align: center;
+}
+.p{
+    padding: 30px ;
+    border-left: black solid 6px;
+    transition: 0.5s;
+}
+.p:hover{
+    border-left: green solid 6px;
+
+}
