@@ -1,0 +1,117 @@
+/* .input{
+    width: 500px;
+    height: 20px;
+    color: green;
+}
+.input1{
+    color: green;
+} */
+
+.div{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.div1{
+    height: 100vh;
+    width: 50%;
+    
+}
+.div2{
+    height: 100vh;
+    width: 50%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    
+    text-align: center;
+}
+.div_3{
+    margin-top: 50px;
+}
+.ul{
+    display: flex;
+    
+}
+.a{
+    border: solid 1px black;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    
+    
+}
+.a1{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+.div_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-top: 40px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+}
+.textarea{
+    resize: none;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+.div_textarea{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.a2{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+.submit{
+    background-color: cadetblue;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+
+}
+.div_5{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.h1_1{
+    color: white;
+}
+.submit1{
+    border-radius: 30px;
+    height: 50px;
+    width: 60px;
+    background-color: cadetblue;
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}

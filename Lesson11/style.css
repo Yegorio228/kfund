@@ -1,0 +1,123 @@
+/* .japan::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+     border-radius: 50%;
+}
+.japan{
+    width: 300px;
+    height: 200px;
+    border: 5px solid red;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+} */
+*{
+    box-sizing: border-box;
+}
+.inst{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.inst-inside{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(225deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 30%;
+    position: relative;
+}
+
+.inst1{
+    width: 200px;
+    height: 200px;
+    border: 20px solid  white;
+    border-radius: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.inst2{
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.inst3{
+    width: 20px;
+    height: 20px;
+    border: 15px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 22%;
+    left: 63%;
+}
+
+.pencil{
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    border: 100px solid grey;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.pencil1{
+margin-left: 135px;
+    content: "";
+    position: relative;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: rgb(244,135,83);
+    width: 330px;
+    height: 300px;
+    border: 100px solid rgb(244,135,83);
+    margin-top: 200px;
+}
+.pencil_poloska{
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 600px;
+    background-color: rgb(67,242,195);
+    margin-left: 135px;
+}
+.poloska1{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+}
+.poloska2{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+}
+.poloska3{
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 600px;
+    background-color: rgb(23,120,94);
+    border-radius: 10%;
+}

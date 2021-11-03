@@ -1,0 +1,78 @@
+.list{
+    list-style-type: none;
+}
+.item{
+    text-decoration: none;
+    color: red;
+}
+.item1:nth-child(even) .item{
+    color: red;
+    font-size: 20px;
+}
+.item1:nth-child(odd) .item{
+    font-size: 30px;
+    color: blue;
+}
+
+.item1:nth-child(3n+2) .item{
+    color: pink;
+    font-size: 50px;
+}
+.item1:nth-child(8) .item{
+    color: yellow;
+}
+
+
+.div{
+    width: 1170px;
+    height: 700px;
+}
+.arrow{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.arrow::after{
+    content: ">";
+    display: inline-block;
+    transition: 1s;
+}
+.arrow:hover::after{
+    margin-left: 20px;
+}
+.arrow1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    line-height: 1;
+    display: inline-block;
+}
+
+.arrow1::after{
+    content: "";
+    width: 21px;
+    height: 18px;
+    background: url("http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg") no-repeat;
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+    
+}
+.arrow1::before{
+    background: url("http://www.candicendexter.com/images/hexagon.svg") no-repeat;
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -35px;
+    bottom: -2px;
+}
+.arrow1:hover::before{
+    transform: rotate(45deg);
+    transform-origin:center ;
+}
