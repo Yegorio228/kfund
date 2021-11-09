@@ -123,3 +123,19 @@ margin-top: 50px;
 .badges{
     margin-top: 150px;
 }
+
+@media (max-width: 1170px){
+
+    .container{
+        width: 100%;
+        max-width: 980px;
+    }
+
+    .container1{
+        justify-content: space-evenly;
+    }
+
+}
+@media (max-width: 1170px){
+
+}
