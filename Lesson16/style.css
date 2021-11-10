@@ -1,0 +1,96 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li:hover >ul{
+    display: block;
+}
+.header{
+    margin-top: 60px;
+}
+.main_menu{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.link{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.link:hover{
+    background-color: rgb(218, 85, 32);
+}
+.dropdown{
+    display: none;
+    position: absolute;
+}
+.first_dropdown {
+    position: absolute;
+    right: 200px;
+    top: 0;
+}
+.dropdown_item {
+    position: relative;
+}
+.first_dropdown_item{
+    position: relative;
+}
+.second_dropdown{
+    position: absolute;
+    right: 200px;
+    top: 0;
+}
+.main_menu_item1{
+    position: relative;
+}
+.main_menu_item2{
+    position: relative;
+}
+.main_menu_item_1{
+    position: relative;
+}
+.main_menu_item_2{
+    position: relative;
+}
+.second_main_menu{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+.third_main_menu{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+.main_menu_second{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+.main_menu_third{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.center{
+    width: 1170px;
+    margin-top: 200px;
+}
+.h1{
+    color: white;
+    text-align: center;
+
+}
