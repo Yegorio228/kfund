@@ -1,0 +1,28 @@
+.row > div{
+    
+   
+    padding: 10px;
+    margin-top: 10px;
+}
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+.div{
+    background-color: rgb(255, 187, 0);
+    border-radius: 50%;
+}
+.div1{
+    color: gray;
+    
+}
+.btn{
+    width: 70%;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 0);
+    
+}
+.row1{
+    width: 100%;
+}
