@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: absolute;
+    width: 1170px;
+    left: 50%;
+    margin-left: -585px;
+}
+.baner{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/gory-sneg-oblaka-les-vedmak-the-witcher-the-witcher-3-wild-h.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.span{
+    color: white;
+}
+.a{
+    color: gray;
+}
+.a:hover{
+    color: white;
+    text-decoration:underline rgba(21, 180, 21, 0.911);
+}
+.center{
+    padding-top: 300px;
+}
+.p{
+    
+    text-align: center;
+    color: rgba(31, 211, 31, 0.911);
+}
+.h1{
+    text-align: center;
+    color: white;
+}
+.h2{
+    margin-top: 100px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+.btn:hover{
+    color: rgba(21, 180, 21, 0.911);
+}
+.div1{
+    margin-right: 10px;
+}
+.div2{
+    margin-left: 10px;
+    color: rgb(255, 170, 43);
+    border: 1px solid rgb(255, 170, 43);
+}
