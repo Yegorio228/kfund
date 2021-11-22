@@ -1,0 +1,19 @@
+.uk-card-header{
+    border-bottom:none !important ;
+}
+.uk-card-footer{
+    background-color: rgb(177, 174, 174);
+}
+.icon{
+    margin-left: 0%;
+}
+.uk-card-body{
+    padding: 20px 0px 0px 20px;
+}
+.uk-card-badge{
+    background: none;
+    color: grey;
+}
+.span{
+    margin-left: 5px;
+}
