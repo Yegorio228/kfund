@@ -66,7 +66,7 @@
 let N = prompt('Введите число N')
 let r = 0
 for(let i = 1;N>=i; i++){
-    r = i**i
+    r += i**i
     console.log(r)
 }
 console.log(r)
