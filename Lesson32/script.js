@@ -1,4 +1,4 @@
-// let z = 2
+  // let z = 2
 
 // for (let i = 0; i < 10; i++) {
 //     console.log(z *= 2)
