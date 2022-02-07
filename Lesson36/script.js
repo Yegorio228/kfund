@@ -70,3 +70,18 @@ let viewNumder = () =>{
     
     console.log(str+r)
 }
+
+
+
+
+function Begin10(){
+    let N = prompt("")
+    let A = prompt("")
+    if(A != 0 && N != 0 && A > N){
+        console.log(A+N)
+        console.log(A-N)
+        console.log(A*N)
+        console.log(A/N)
+    }
+    
+}
