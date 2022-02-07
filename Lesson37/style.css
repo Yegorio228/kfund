@@ -1,0 +1,27 @@
+.input_Btn , .input_ok , .input_button{
+    position: absolute;
+    cursor: pointer;
+    border: 1px black solid;
+    height: 300px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_Btn:hover{
+    background-color: rgba(255, 235, 205, 0.603);
+}
+
+
+.modal , .ex{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    background-color: gray;
+}
+
