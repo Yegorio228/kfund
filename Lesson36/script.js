@@ -77,7 +77,7 @@ let viewNumder = () =>{
 function Begin10(){
     let N = prompt("")
     let A = prompt("")
-    if(A != 0 && N != 0 && A > N){
+    if(A != 0 && N != 0){
         console.log(A+N)
         console.log(A-N)
         console.log(A*N)
@@ -85,3 +85,61 @@ function Begin10(){
     }
     
 }
+
+
+function Begin15(){
+    let S = prompt("Площадь")
+    let n = 3.14
+    D += (4*S)/3.14
+}
+
+
+//Begin
+let l = prompt('Введите число:') 
+let P = 3.14
+let R = l/(2*P)
+console.log(R)
+let S = P * (R**2)
+console.log(S)
+
+//Integer
+let a = prompt('Введите число:') 
+
+let one = Math.floor (a/10)
+let two = a % 10
+console.log(one)
+console.log(two)
+
+
+
+//Boolean
+let a = prompt('Введите число:') 
+let b = prompt('Введите число:') 
+let c = prompt('Введите число:') 
+
+if(a==b){
+    console.log('True')
+}
+else if(b==c){
+    console.log('True')
+}
+else if(c==a){
+    console.log('True')
+}
+else{
+    console.log('False')
+}
+
+
+//If
+let a = prompt('Введите число:') 
+
+if(a >= 0){
+    a++
+    console.log(a)
+}
+else{
+    console.log(a)
+}
+
+
